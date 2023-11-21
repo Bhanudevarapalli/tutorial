@@ -55,8 +55,8 @@ public class PlayerService implements PlayerRepository {
             existingPlayer.setPlayerName(player.getPlayerName());
 
         }
-        if (player.getJersyNumber() != 0) {
-            existingPlayer.setJersyNumber(player.getJersyNumber());
+        if (player.getJerseyNumber() != 0) {
+            existingPlayer.setJerseyNumber(player.getJerseyNumber());
         }
         if (player.getRole() != null) {
             existingPlayer.setRole(player.getRole());
