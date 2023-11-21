@@ -3,13 +3,13 @@ package com.example.player;
 class Player {
     int playerId;
     String playerName;
-    int jersyNumber;
+    int jerseyNumber;
     String role;
 
-    public Player(int playerId, String playerName, int jersyNumber, String role) {
+    public Player(int playerId, String playerName, int jerseyNumber, String role) {
         this.playerId = playerId;
         this.playerName = playerName;
-        this.jersyNumber = jersyNumber;
+        this.jerseyNumber = jerseyNumber;
         this.role = role;
     }
 
@@ -29,12 +29,12 @@ class Player {
         this.playerName = playerName;
     }
 
-    public int getJersyNumber() {
-        return jersyNumber;
+    public int getJerseyNumber() {
+        return jerseyNumber;
     }
 
-    public void setJersyNumber(int jersyNumber) {
-        this.jersyNumber = jersyNumber;
+    public void setJerseyNumber(int jerseyNumber) {
+        this.jerseyNumber = jerseyNumber;
     }
 
     public String getRole() {
